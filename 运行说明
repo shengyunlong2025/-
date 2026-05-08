@@ -1,0 +1,20 @@
+
+## 运行方式（Kaggle 推荐）
+1. 新建 Notebook
+2. Add Data → 搜索 chest-xray-pneumonia
+3. 复制 train.ipynb 全部代码运行
+4. 输出图片自动保存到 working 目录
+
+## 依赖
+- tensorflow>=2.8
+- numpy
+- matplotlib
+- seaborn
+- pillow
+- scikit-learn
+
+## 最终指标（测试集）
+- Accuracy：~0.92
+- Precision：~0.94
+- Recall：~0.94
+- F1：~0.94
